@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+header{
+    background-color: black;
+    height: 6em;
+}
+img{
+    margin-top: 10px;
+    margin-left: 10pc;
+}
+.headtag
+{
+    float: right;
+    margin-right: 5pc;
+    margin-top: 2.5pc;
+}
+.headtag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+}
+.headtag a:hover{
+    color: black;
+    background-color: cyan;
+}
+.sidebar
+{
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+   padding: 100px;
+}
+.sidebar li{
+    list-style: square;
+    margin-bottom: 5px;
+}
+.sidebar h3{
+    padding-bottom: 10px;
+}
+.login{
+    float: right;
+    border: 2px solid red;
+    background-color: beige;
+    height: 15em;
+    margin-top: 2pc;
+    margin-right: 2pc;
+    padding-left: 2pc;
+    padding-right: 1pc;
+    padding-top: 1pc;
+}
+.login h2{
+    text-align: centre;
+}
+.login input{
+    height: 1.5pc;
+}
+.login #but{
+    width: 100%;
+    height: 1.5pc;
+    color: white;
+    background-color: blue;
+}
+#but:hover
+{
+    color: black;
+    background-color: cornsilk;
+    border: 1px solid black;
+}
+.container
+{
+    /* border: 2px solid black; */
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.p-box{
+    border: 2px solid white;
+    width: 22%;
+    float: left;
+    margin-left: 30px;
+    height: 15em;
+    background-color: wheat;
+    line-height: 1.25em;
+    text-align: justify;
+}
+.p-box h3{
+    text-align: center;
+}
+.p-box a{
+    color: red;
+    text-decoration:none;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 1.5em;
+    margin-top: 25%;
+}
